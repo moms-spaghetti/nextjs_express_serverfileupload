@@ -19,19 +19,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>next js frontend vimeo</title>
+        <title>next js frontend + express backend file upload testing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1>next js frontend vimeo</h1>
+        <h1>next js frontend + express backend file upload testing</h1>
         <form onSubmit={handleSubmit(uploadFile)}>
           <h3>File upload to backend</h3>
           filename: <input ref={register} name="title" type="text" />
           <br />
           <input ref={register} name="file" type="file" />
-          <hr />
-          <h3>File upload to vimeo</h3>
           <br />
           <input type="submit" />
         </form>
